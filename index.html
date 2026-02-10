@@ -3,169 +3,214 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DINING</title>
+  <title>Dining - Sunset Escape Villa</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-  <div class="N_bar">
-    <ul>
-        <li><a href="">HOME</a></li>
-        <li><a href="">ACCOMMODATION</a></li>
-        <li><a href="">CONTACT</a></li>
-        <li><a href="">ABOUT US</a></li>
-        <li><a href="">DINING</a></li>
-        <li><a href="">OFFERS</a></li>
-        <li><a href="">GALLERY</a></li>
-    </ul>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <ul class="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#accommodation">ACCOMMODATION</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li><a href="#dining" class="active">DINING</a></li>
+        <li><a href="#offers">OFFERS</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+      </ul>
+      <a href="#booking" class="book-now-btn">BOOK NOW</a>
+    </div>
+  </nav>
 
-    <!-- "BOOK NOW" button -->
-    <a href="#" class="book-now-btn">BOOK NOW</a>
-</div>
-</div>
-<div class="center">
-  <h1 class="alex-brush">Welcome</h1><br>
-  <h2 style="font-family:Georgia;">SUN SET ESCAPE <b>VILLA</b></h2><br>
-  <span id="asterisk">ENJOY <br><br>WITH <br><br>US</span>
-  <p>ready to be enjoy</p>
-</div>
-
-   
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1 class="alex-brush">Welcome</h1>
+      <h2 class="hero-title">SUNSET ESCAPE <span>VILLA</span></h2>
+      <div class="hero-divider">
+        <span class="hero-subtitle">ENJOY WITH US</span>
+      </div>
+      <p class="hero-tagline">Ready to be enjoyed</p>
+    </div>
   </header>
   
-  <section class="add-padding add-flex">
-    <div class="center-text">
-      <h1 class="alex-brush"><span class="custom-font">Savor</span><br /></h1>
-      <h2>CHOOSE & ENJOY</h2><br>
-      <p>Choosing the perfect dish has never been easier! 
-        Whether you're in the mood for something light and fresh or craving a hearty, 
-        indulgent meal, our diverse menu has something to satisfy every taste. 
-        Explore a variety of flavors, from classi
-        c favorites to bold new creations,
-        and make every meal an experience. Your next delicious adventure starts right here!</p>
-    </div>
-    <div  class="stuffed-cherries" data-aos="fade-left" data-aos-delay="300">
+  <!-- Introduction Section -->
+  <section class="intro-section">
+    <div class="container">
+      <div class="intro-content">
+        <h1 class="section-title alex-brush">Savor</h1>
+        <h2 class="section-subtitle">CHOOSE & ENJOY</h2>
+        <p class="section-text">
+          Choosing the perfect dish has never been easier! 
+          Whether you're in the mood for something light and fresh or craving a hearty, 
+          indulgent meal, our diverse menu has something to satisfy every taste. 
+          Explore a variety of flavors, from classic favorites to bold new creations,
+          and make every meal an experience. Your next delicious adventure starts right here!
+        </p>
+      </div>
+      <div class="intro-image">
+        <img src="image/img4.webp" alt="Delicious stuffed cherries dessert">
+      </div>
     </div>
   </section>
   
-  <section class="bread-background center-h1">
-    <h1 class="custom-h1 alex-brush"><span class="custom-font">Tasteful</span><br />RECIPES</h1>
+  <!-- Tasteful Recipes Banner -->
+  <section class="banner-section recipes-banner">
+    <div class="banner-overlay">
+      <h1 class="banner-title alex-brush">Tasteful <span class="banner-subtitle">RECIPES</span></h1>
+    </div>
   </section>
   
-  <section class="menu add-flex add-padding">
-    <div class="menu-images">
-      <img src="image/pic1.jpg">
-      <img src="image/mocha.jpg">
-      <img src="image/pic2.jpg">
-      <img src="image/pic1.jpgjpg.webp">
-    </div>
-    <div class="center-text">
-      <h1><span class="custom-font alex-brush">Menu</span></h1>
-      <h2>RICE & CURRY</h2><br>
-      <p>Savor the vibrant flavors of our signature dish, 
-        featuring fragrant Turmeric Rice paired with Shrimp Masala in a rich blend of spices. 
-        Accompanied by a colorful Vegetable Stir-Fry, 
-        creamy Cashew and Pea Curry, 
-        and a refreshing Salad, 
-        this meal offers a perfect balance of textures and tastes. 
-        Topped with a perfectly Boiled Egg and crispy Papadam, 
-        it's a delightful feast that will satisfy every craving.</p><br>
-      <h2>IDIYAPPAM</h2><br>
-      <p>Enjoy a traditional Sri Lankan delight with Idiappam, Fish Curry, 
-        and Pol Sambol. Soft, steamed rice noodles are paired with a flavorful fish curry, 
-        made with fresh ingredients and aromatic spices, 
-        and complemented by a zesty coconut Pol Sambol. 
-        A perfect balance of textures and bold flavors in every bite.</p><br>
-      <h2>RICE & CURRY</h2><br>
-      <p>Savor the vibrant flavors of our signature dish, 
+  <!-- Menu Section -->
+  <section class="menu-section">
+    <div class="container">
+      <div class="menu-gallery">
+        <img src="image/pic1.jpg" alt="Traditional Sri Lankan rice and curry">
+        <img src="image/mocha.jpg" alt="Fresh mocha beverage">
+        <img src="image/pic2.jpg" alt="Gourmet dish presentation">
+        <img src="image/pic1.jpgjpg.webp" alt="Traditional meal platter">
+      </div>
+      <div class="menu-content">
+        <h1 class="section-title alex-brush">Menu</h1>
+        
+        <div class="menu-item">
+          <h2 class="menu-item-title">RICE & CURRY</h2>
+          <p class="menu-item-description">
+            Savor the vibrant flavors of our signature dish, 
             featuring fragrant Turmeric Rice paired with Shrimp Masala in a rich blend of spices. 
             Accompanied by a colorful Vegetable Stir-Fry, 
             creamy Cashew and Pea Curry, 
-            and a refreshing Salad, 
-            this meal offers a perfect balance of textures and tastes. 
+            and a refreshing Salad. 
             Topped with a perfectly Boiled Egg and crispy Papadam, 
             it's a delightful feast that will satisfy every craving.
-      </p>
-    </div>
-  </section>
-  
-  <section class="cake-background center-h1">
-    <h1 class="custom-h1"><span class="custom-font alex-brush">Cook<br>Create<br>Savor</span></h1>
-  </section>
-  
-  <section class="add-flex reservation-section">
-    <div class="center-text add-padding">
-      <h1><span class="custom-font alex-brush">From kitchen to table</span></h1>
-      <h2>Create Your Own signature dish</h2><br>
-      <h2 style="font-family:blackadder ITC;color:dodgerblue">Cook with our chef</h2><br>
-      <p>Experience a unique dining adventure at our villa where you can cook your own meal with the guidance of our expert chef. 
-        Choose from a variety of ingredients and recipes, 
-        and enjoy the fun of preparing a delicious, 
-        personalized dish in a fully-equipped kitchen. 
-        Perfect for bonding with loved ones or learning new culinary skills!</p>
-    </div>
-    <div>
-      <img src="image/grill.jpeg" data-aos="fade-up" data-aos-delay="300"/>
-      <img src="image/breakfast.jpg" data-aos="fade-down" data-aos-delay="300"/>
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="logo-section">
-        <h2 class="logo">SUNSET ESCAPE</h2>
-        <p class="subtitle"></p>
-        <p class="location">HOMAGAMA</p>
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <h2 class="menu-item-title">IDIYAPPAM</h2>
+          <p class="menu-item-description">
+            Enjoy a traditional Sri Lankan delight with Idiappam, Fish Curry, 
+            and Pol Sambol. Soft, steamed rice noodles are paired with a flavorful fish curry, 
+            made with fresh ingredients and aromatic spices, 
+            and complemented by a zesty coconut Pol Sambol. 
+            A perfect balance of textures and bold flavors in every bite.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <h2 class="menu-item-title">BREAKFAST SPECIAL</h2>
+          <p class="menu-item-description">
+            Start your day with our hearty breakfast featuring fresh tropical fruits,
+            traditional Sri Lankan hoppers, and aromatic Ceylon tea.
+            A perfect blend of local flavors to energize your morning.
+          </p>
+        </div>
       </div>
-      <div class="footer-links">
-        <div class="column">
+    </div>
+  </section>
+  
+  <!-- Cook Create Savor Banner -->
+  <section class="banner-section cook-banner">
+    <div class="banner-overlay">
+      <h1 class="banner-title alex-brush">
+        Cook<br>Create<br>Savor
+      </h1>
+    </div>
+  </section>
+  
+  <!-- Chef Experience Section -->
+  <section class="chef-section">
+    <div class="container">
+      <div class="chef-content">
+        <h1 class="section-title alex-brush">From Kitchen to Table</h1>
+        <h2 class="section-subtitle">Create Your Own Signature Dish</h2>
+        <h3 class="chef-highlight">Cook with Our Chef</h3>
+        <p class="section-text">
+          Experience a unique dining adventure at our villa where you can cook your own meal 
+          with the guidance of our expert chef. Choose from a variety of ingredients and recipes, 
+          and enjoy the fun of preparing a delicious, personalized dish in a fully-equipped kitchen. 
+          Perfect for bonding with loved ones or learning new culinary skills!
+        </p>
+      </div>
+      <div class="chef-images">
+        <img src="image/grill.jpeg" alt="Grilling experience with our chef">
+        <img src="image/breakfast.jpg" alt="Fresh breakfast preparation">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Logo Section -->
+      <div class="footer-logo">
+        <h2 class="logo-text">SUNSET ESCAPE</h2>
+        <p class="logo-location">HOMAGAMA</p>
+      </div>
+
+      <!-- Footer Links -->
+      <div class="footer-columns">
+        <div class="footer-column">
           <h3>ABOUT</h3>
           <ul>
-            <li><a href="#">Our Story</a></li>
-            <li><a href="#">Fact Sheet</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Contact us</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#facts">Fact Sheet</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms & Conditions</a></li>
+            <li><a href="#contact">Contact Us</a></li>
           </ul>
         </div>
-        <div class="column">
+
+        <div class="footer-column">
           <h3>SUNSET ESCAPE VILLA</h3>
           <ul>
-            <li><a href="#">Accommodations</a></li>
-            <li><a href="#">Experiences</a></li>
-            <li><a href="#">Facilities</a></li>
-            <li><a href="#">Dining</a></li>
-            <li><a href="#">Offers</a></li>
+            <li><a href="#accommodation">Accommodations</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#facilities">Facilities</a></li>
+            <li><a href="#dining">Dining</a></li>
+            <li><a href="#offers">Offers</a></li>
           </ul>
         </div>
- 
-        <div class="column">
-          <h3>RESERVATIONS</h3>
-          <p>+94 11 22 33444</p>
-          <p>reservations@sunsetescapevilla.lk</p>
-          <div class="social-links">
-            <a href="#" class="social-icon"><img src="image/fb.jpg" ></a>
-            <a href="#" class="social-icon"><img src="image/inst.jpg" ></a>
-            <a href="#" class="social-icon"><img src="image/whts.jpg" ></a>
-            <span>@sunsetescapevilla</span>
 
+        <div class="footer-column">
+          <h3>RESERVATIONS</h3>
+          <p class="contact-info">+94 11 22 33444</p>
+          <p class="contact-info">reservations@sunsetescapevilla.lk</p>
+          
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Facebook">
+              <img src="image/fb.jpg" alt="Facebook">
+            </a>
+            <a href="#" class="social-icon" aria-label="Instagram">
+              <img src="image/inst.jpg" alt="Instagram">
+            </a>
+            <a href="#" class="social-icon" aria-label="WhatsApp">
+              <img src="image/whts.jpg" alt="WhatsApp">
+            </a>
+            <span class="social-handle">@sunsetescapevilla</span>
           </div>
-          <div class="map" id="map-section" onclick="redirectToMap()">
-            <!-- Embed Google Map -->
+
+          <div class="map-container" onclick="redirectToMap()">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31690.657218841682!2d79.97232506776593!3d6.842058231165594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae24964bd59b0fb%3A0xc7d374be7b3c4ec!2sHomagama!5e0!3m2!1sen!2slk!4v1634987435651!5m2!1sen!2slk"
-                width="300px" height="150px" style="margin-top: 20px;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31690.657218841682!2d79.97232506776593!3d6.842058231165594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae24964bd59b0fb%3A0xc7d374be7b3c4ec!2sHomagama!5e0!3m2!1sen!2slk!4v1634987435651!5m2!1sen!2slk"
+              width="100%" 
+              height="150" 
+              style="border:0; border-radius: 8px; margin-top: 20px;" 
+              allowfullscreen="" 
+              loading="lazy"
+              title="Location map">
+            </iframe>
+          </div>
         </div>
       </div>
-   </div>
-</div>
-<script>
-    function redirectToMap() {
-        window.open("https://maps.app.goo.gl/wf5LeVyUU2wiWSb66 ", "_blank");
-    }
-</script>
-</footer>
-  </body>
+    </div>
+  </footer>
 
+  <script>
+    function redirectToMap() {
+      window.open("https://maps.app.goo.gl/wf5LeVyUU2wiWSb66", "_blank");
+    }
+  </script>
+</body>
 </html>
-  
